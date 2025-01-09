@@ -1,0 +1,7 @@
+- name: variables
+  hosts: local
+  connection: local
+  tasks:
+  -name: "print the variable"
+    ansible.builtin.package:
+      msg: "course is devops with aws ,duration is 120hrs, trainer is sivakumar"
