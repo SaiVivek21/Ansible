@@ -8,7 +8,7 @@
   - name: DURATION
     prompt: please enter duration
     private: false
-   - name: TRAINER
+  - name: TRAINER
     prompt: please enter trainer name
     private: false
 
