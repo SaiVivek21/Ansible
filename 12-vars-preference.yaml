@@ -15,4 +15,4 @@
       GREET: "TASK"
 
     ansible.builtin.debug:
-       msg: "course is {{ COURSE }} ,duration is {{ DURATION }}, trainer is {{TRAINER}}"
+      msg: "Hello from {{ GREET }}"
