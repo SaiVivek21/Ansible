@@ -3,8 +3,8 @@
   connection: local
   vars: #play level variables
     GREET: "play"
-  vars_files:
-  - course.yaml
+  # vars_files:
+  # - course.yaml
   vars_prompt:
   - name: GREET
     prompt: enter the values
@@ -19,3 +19,4 @@
 
 #1. COOMAD LINE OR ARGS
 #2. task level
+#3. files
