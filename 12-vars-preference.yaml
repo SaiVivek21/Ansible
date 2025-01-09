@@ -11,10 +11,11 @@
     private: false
   tasks:
   - name: print the variable
-    vars:
-      GREET: "TASK"
+    # vars:
+    #   GREET: "TASK"
 
     ansible.builtin.debug:
       msg: "Hello from {{ GREET }}"
 
 #1. COOMAD LINE OR ARGS
+#2. task level
