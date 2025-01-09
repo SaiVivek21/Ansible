@@ -16,3 +16,5 @@
 
     ansible.builtin.debug:
       msg: "Hello from {{ GREET }}"
+
+#1. COOMAD LINE OR ARGS
