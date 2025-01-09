@@ -16,5 +16,5 @@
      contenarization: docker
   tasks:
   -name: print course information
-   ansible.builtin.package:
+    ansible.builtin.package:
      msg: "hello iam learning {{ course_name}} , duration {{ duration}} , topics are: {{ topics }} , is it {{ live }} tools covered are: {{ tools }}"
