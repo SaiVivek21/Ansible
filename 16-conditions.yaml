@@ -2,14 +2,14 @@
   hosts: web
   become: yes
   tasks:
-  -name: install nginx if RHEL
-   ansible.builtin.dnf:
-     name: nginx
-     state: installed
-   when: ansible_os_family == "redhat"
+  - name: install nginx if RHEL
+    ansible.builtin.dnf:
+      name: nginx
+      state: installed
+    when: ansible_os_family == "redhat"
 
- -name: install nginx if UBUNTU
+ - name: install nginx if UBUNTU
    ansible.builtin.apt:
-     name: nginx
-     state: installed
-   when: ansible_os_family == "Debian"
+      name: nginx
+      state: installed
+    when: ansible_os_family == "Debian"
