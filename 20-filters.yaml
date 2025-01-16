@@ -5,3 +5,10 @@
   - name: handle u defined variable
     ansible.builtin.debug:
       msg: "hello {{ person | default('Ramesh') }}"
+
+
+  - name: convert strings into lists
+    vars: 
+      fruits: "apple , banana , orange" #string
+    ansible.builtin.debug:
+      msg: "fruits are: {{ fruits | split(',') }}"
