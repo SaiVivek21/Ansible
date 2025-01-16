@@ -1,5 +1,5 @@
-- name: shell vs command
-  host: local
+- name: shell vs Command
+  hosts: local
   connection: local
   tasks:
   - name: execute ls command
