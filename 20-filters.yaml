@@ -4,4 +4,4 @@
   tasks:
   - name: handle u defined variable
     ansible.builtin.debug:
-      msg: "hello {{ person }}"
+      msg: "hello {{ person | default('Ramesh') }}"
