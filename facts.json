@@ -1,20 +1,4 @@
-[WARNING]:  * Failed to parse /home/ec2-user/Ansible/inventory.ini with ini
-plugin: /home/ec2-user/Ansible/inventory.ini:11: Section [local:vars] not valid
-for undefined group: local
-[WARNING]: Unable to parse /home/ec2-user/Ansible/inventory.ini as an inventory
-source
-[WARNING]: No inventory was parsed, only implicit localhost is available
-[WARNING]: provided hosts list is empty, only localhost is available. Note that
-the implicit localhost does not match 'all'
-
-PLAY [print the facts] *********************************************************
-
-TASK [Gathering Facts] *********************************************************
-ok: [172.31.95.189]
-
-TASK [print the facts] *********************************************************
-ok: [172.31.95.189] => {
-    "msg": {
+   "msg": {
         "all_ipv4_addresses": [
             "172.31.95.189"
         ],
