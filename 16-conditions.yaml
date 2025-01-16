@@ -8,8 +8,8 @@
       state: installed
     when: ansible_os_family == "redhat"
 
- - name: install nginx if UBUNTU
-   ansible.builtin.apt:
+  - name: install nginx if Ubuntu
+    ansible.builtin.apt:
       name: nginx
       state: installed
     when: ansible_os_family == "Debian"
