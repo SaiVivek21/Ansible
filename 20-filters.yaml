@@ -1,0 +1,7 @@
+- name: filters
+  hosts: local
+  connection: local
+  tasks:
+  - name: handle u defined variable
+    ansible.builtin.debug:
+      msg: "hello {{ person }}"
