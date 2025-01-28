@@ -1,0 +1,43 @@
+{
+        "changed": true,
+        "cmd": [
+            "ls",
+            "-ltr"
+        ],
+        "delta": "0:00:00.008524",
+        "end": "2025-01-16 08:31:40.662685",
+        "failed": false,
+        "msg": "",
+        "rc": 0,
+        "start": "2025-01-16 08:31:40.654161",
+        "stderr": "",
+        "stderr_lines": [],
+        "stdout": "total 132\n-rw-r--r-- 1 ec2-user ec2-user   258 Jan 16 06:17 07-vars-file.yaml\n-rw-r--r-- 1 ec2-user ec2-user   633 Jan 16 06:17 06-task-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   310 Jan 16 06:17 05-vars.yaml\n-rw-r--r-- 1 ec2-user ec2-user   397 Jan 16 06:17 04-multi-play.yaml\n-rw-r--r-- 1 ec2-user ec2-user   268 Jan 16 06:17 03-nginx.yaml\n-rw-r--r-- 1 ec2-user ec2-user   124 Jan 16 06:17 02-hello-world.yaml\n-rw-r--r-- 1 ec2-user ec2-user    85 Jan 16 06:17 01-playbook.yaml\n-rw-r--r-- 1 ec2-user ec2-user    76 Jan 16 06:17 course.yaml\n-rw-r--r-- 1 ec2-user ec2-user   452 Jan 16 06:17 14-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user   546 Jan 16 06:17 13-data-types.yaml\n-rw-r--r-- 1 ec2-user ec2-user   422 Jan 16 06:17 12-vars-preference.yaml\n-rw-r--r-- 1 ec2-user ec2-user   206 Jan 16 06:17 11-vars-args.yaml\n-rw-r--r-- 1 ec2-user ec2-user   205 Jan 16 06:17 10-vars-inventor.yaml\n-rw-r--r-- 1 ec2-user ec2-user   228 Jan 16 06:17 09-vars-inventory.yaml\n-rw-r--r-- 1 ec2-user ec2-user   465 Jan 16 06:17 08-prompt.yaml\n-rw-r--r-- 1 ec2-user ec2-user   131 Jan 16 06:31 15-facts.yaml\n-rw-r--r-- 1 ec2-user ec2-user   336 Jan 16 07:01 16-conditions.yaml\n-rw-r--r-- 1 ec2-user ec2-user 38454 Jan 16 07:01 facts.json\n-rw-r--r-- 1 ec2-user ec2-user  1025 Jan 16 07:12 inventory.ini\n-rw-r--r-- 1 ec2-user ec2-user   188 Jan 16 07:14 17-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   218 Jan 16 07:18 18-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user   350 Jan 16 07:32 19-loops.yaml\n-rw-r--r-- 1 ec2-user ec2-user  1433 Jan 16 08:11 20-filters.yaml\n-rw-r--r-- 1 ec2-user ec2-user   469 Jan 16 08:31 21-shell-command.yaml",
+        "stdout_lines": [
+            "total 132",
+            "-rw-r--r-- 1 ec2-user ec2-user   258 Jan 16 06:17 07-vars-file.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   633 Jan 16 06:17 06-task-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   310 Jan 16 06:17 05-vars.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   397 Jan 16 06:17 04-multi-play.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   268 Jan 16 06:17 03-nginx.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   124 Jan 16 06:17 02-hello-world.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user    85 Jan 16 06:17 01-playbook.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user    76 Jan 16 06:17 course.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   452 Jan 16 06:17 14-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   546 Jan 16 06:17 13-data-types.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   422 Jan 16 06:17 12-vars-preference.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   206 Jan 16 06:17 11-vars-args.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   205 Jan 16 06:17 10-vars-inventor.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   228 Jan 16 06:17 09-vars-inventory.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   465 Jan 16 06:17 08-prompt.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   131 Jan 16 06:31 15-facts.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   336 Jan 16 07:01 16-conditions.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user 38454 Jan 16 07:01 facts.json",
+            "-rw-r--r-- 1 ec2-user ec2-user  1025 Jan 16 07:12 inventory.ini",
+            "-rw-r--r-- 1 ec2-user ec2-user   188 Jan 16 07:14 17-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   218 Jan 16 07:18 18-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   350 Jan 16 07:32 19-loops.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user  1433 Jan 16 08:11 20-filters.yaml",
+            "-rw-r--r-- 1 ec2-user ec2-user   469 Jan 16 08:31 21-shell-command.yaml"
+        ]
+    }
